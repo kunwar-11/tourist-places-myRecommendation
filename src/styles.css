@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: "Architects Daughter", cursive;
   text-align: center;
   margin: auto;
-  max-width: 650px;
+}
+body {
+  background-color: paleturquoise;
 }
 button {
   padding: 0.5rem 1rem;
@@ -10,20 +14,27 @@ button {
   margin: 1rem;
   border: 1px solid black;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: bolder;
   cursor: pointer;
+  font-family: "Architects Daughter", cursive;
+}
+.img-div {
+  text-align: center;
 }
 
+img {
+  border-radius: 0.5rem;
+}
 button:hover {
-  background-color: green;
-  color: aliceblue;
+  background-color: cyan;
+  color: black;
   border-color: green;
 }
 
 button:active {
-  background-color: cyan;
-  color: black;
+  background-color: green;
+  color: wheat;
   border-color: green;
 }
 
