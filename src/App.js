@@ -41,7 +41,7 @@ var dataBase = {
       place: "Somnath",
       bestTimeVisit: "March to April",
       img:
-        "https://m.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/01/26/Pictures/somnath-temple-at-sunset_c796224a-213d-11e9-8086-344fce0efcf3.jpg"
+        "https://static.toiimg.com/photo/msid-46918897,width-96,height-65.cms"
     }
   ],
   Forts: [
@@ -106,11 +106,10 @@ export default function App() {
                 textAlign: "right"
               }}
             >
-              <div>
+              <div className="img-div">
                 <img
                   src={data.img}
-                  style={{ width: "200px", float: "left" }}
-                  alt=""
+                  style={{ width: "220px", height: "19vh" }}
                 ></img>
                 <div style={{ textAlign: "center" }}>
                   <div
@@ -137,3 +136,4 @@ export default function App() {
     </div>
   );
 }
+
