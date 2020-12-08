@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+  color: aliceblue;
+  border-color: green;
+}
+
+button:active {
+  background-color: cyan;
+  color: black;
+  border-color: green;
+}
+
+li:hover {
+  background-color: aqua;
+}
